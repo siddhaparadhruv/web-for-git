@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+#nav {
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 25px;
+    /* color: aliceblue; */
+    /* text-decoration: none; */
+    /* z-index: 999; */
+    /* color: aliceblue; */
+}
+
+a {
+    text-decoration: none;
+}
+
+/* #nav #anchor {
+    margin-top: 50px;
+} */
