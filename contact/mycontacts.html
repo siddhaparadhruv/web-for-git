@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Contacts</title>
+
+    <script>
+        var contacts = []
+        function addTask() {
+            var a = document.getElementById("t1").value
+            var b = document.getElementById("t2").value
+            var c = document.getElementById("t3").value
+
+            var temp = []
+            temp['name'] = a
+            temp['email'] = b
+            temp['contact'] = c
+            contacts.push(temp);
+            resetFields()
+            dispData();
+        }
+        function dispData() {
+            let output = "<table border=1 cellpadding=10px>";
+            output += "<tr>";
+            output += "<th>Name</th>";
+            output += "<th>Email</th>";
+            output += "<th>Contact</th>";
+
+            output += "<th>Update</th>";
+            output += "<th>Delete</th>";
+
+            output += "</tr>";
+
+            for (let i = 0; i < contacts.length; i++) {
+                output += "<tr>";
+                output += "<td>" + contacts[i].name + "</td>";
+                output += "<td>" + contacts[i].email + "</td>";
+                output += "<td>" + contacts[i].contact + "</td>";
+                output += "<td> <a href='#'> update </a> </td>";
+                output += "<td> <a href='#'> delete </a> </td>";
+
+                output += "</tr>";
+            }
+            output += "</table>";
+            document.getElementById("rst").innerHTML = output;
+        }
+        function resetFields() {
+            document.getElementById("t1").value = ""
+            document.getElementById("t2").value = ""
+            document.getElementById("t3").value = ""
+        }
+    </script>
+</head>
+
+<body>
+    <h1>My Contacts</h1>
+    <input type="text" id="t1" placeholder="Name"><br>
+    <input type="email" id="t2" placeholder="Email"><br>
+    <input type="number" id="t3" placeholder="Number"><br>
+    <input type="button" value="Add contact" onclick="addTask()">
+    <div id="rst"></div>
+</body>
+
+</html>
