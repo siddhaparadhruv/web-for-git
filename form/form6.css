@@ -1,0 +1,32 @@
+#form1 {
+    top: 900px;
+    align-items: center;
+}
+
+table {
+
+    border: 2px solid brown;
+}
+
+table tr {
+    border: 2px solid yellow;
+
+}
+
+td {
+
+    border: 2px solid tomato;
+    background-color: burlywood;
+}
+
+table {
+    top: 0px;
+    /* color: aqua; */
+    border-color: brown;
+    background-color: turquoise;
+
+}
+
+/* .table1 tr td {
+    color: blue;
+} */

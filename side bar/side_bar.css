@@ -80,7 +80,10 @@ input[type="checkbox"] {
     padding-left: 40px;
     line-height: 50px;
     /* border-top: 2px solid rgba(255, 255, 255, 0.1); */
-    border-bottom: 1px solid #b4aaaa;
+    border-radius: 25px;
+    margin-top: 7px;
+    border-top: 4px solid #b4aaaa;
+    border-bottom: 4px solid #b4aaaa;
     transition: all 0.3s ease;
 }
 
@@ -130,6 +133,5 @@ input[type="checkbox"] {
 }
 
 #sidebar .list-item .icons a:hover {
-
     box-shadow: 0 0 15px #fff;
 }

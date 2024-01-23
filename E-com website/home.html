@@ -5,37 +5,413 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <title>Document</title>
+    <script type="module" src="home.js"></script>
+    <script src="https://kit.fontawesome.com/265e283e46.js" crossorigin="anonymous"></script>
+    <title>E-com web</title>
 </head>
 
-<body>
-    <div id="nav" style=" position: fixed; width:100%; top:0; height: 100px; background-color: brown;">
-        <a href="#">Home</a>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="shop.html">shop</a>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="#au">Audio Gallery</a>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="#ab">About Us</a>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="#con">Contact Us</a>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<body style="background-color: #E3E6F3;">
+    <nav id="nav1">
+        <img src="images/logo.png" width="250px" height="70px">
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div class="mobile">
+            <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <div id="part2">
+        <div class="part3">
+            <h4>Trade-in-offer</h4>
+            <h2>Super value beals</h2>
+            <h1>On all products </h1>
+            <p>Save more with coupons & up 70% off!</p>
+            <button class="btn00"><i class="fa-solid fa-cart-shopping"></i> Shop Now</button>
+        </div>
+        <!-- <div class="img">
+            <img src="images/backgroundimage/istockphoto-1292443598-170667a.jpg" alt="">
+        </div> -->
     </div>
-    <!-- <p align="right"
-        style=" position: fixed; width:100%; top:0; height: 50px; background-color: brown; color: aliceblue;">
-        <a href="shop.html">Shop</a>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="blog.html">Blog</a>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="about.html">About</a>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="contact.html">Contact</a>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="shop.html">Shop</a>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="cart.html">cart icon</a>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    </p> -->
+    <div class="feature">
+        <div class="fe-box">
+            <img src="images/features/f1.png" alt="">
+            <h6>Free Shipping</h6>
+        </div>
+        <div class="fe-box">
+            <img src="images/features/f2.png" alt="">
+            <h6>Online Order</h6>
+        </div>
+        <div class="fe-box">
+            <img src="images/features/f3.png" alt="">
+            <h6>Save Money</h6>
+        </div>
+        <div class="fe-box">
+            <img src="images/features/f4.png" alt="">
+            <h6>Promotions</h6>
+        </div>
+        <div class="fe-box">
+            <img src="images/features/f5.png" alt="">
+            <h6>Happy Sell</h6>
+        </div>
+        <div class="fe-box">
+            <img src="images/features/f6.png" alt="">
+            <h6>SUpport</h6>
+        </div>
+    </div>
+    <div id="product-1" class="product1">
+        <h2>Featured Products</h2>
+        <p>Summer Collection New MOrder Desing</p>
+        <div class="pro-con">
+            <div class="pro">
+                <img src="images/products/f1.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartooon Astronaut T-Shirts</h5>
+                    <div class="start">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i id="cart" class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/products/f2.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartooon Astronaut T-Shirts</h5>
+                    <div class="start">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping" id="cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/products/f3.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartooon Astronaut T-Shirts</h5>
+                    <div class="start">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping" id="cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/products/f4.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartooon Astronaut T-Shirts</h5>
+                    <div class="start">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping" id="cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/products/f5.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartooon Astronaut T-Shirts</h5>
+                    <div class="start">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping" id="cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/products/f6.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartooon Astronaut T-Shirts</h5>
+                    <div class="start">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping" id="cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/products/f7.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartooon Astronaut T-Shirts</h5>
+                    <div class="start">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping" id="cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/products/f8.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartooon Astronaut T-Shirts</h5>
+                    <div class="start">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping" id="cart"></i></a>
+            </div>
+        </div>
+    </div>
+    <div id="banner" class="banner-d">
+        <h2>Repair Services</h2>
+        <h1>Up to <span>70% Off </span>- All t-shirts & Accessories</h1>
+        <button>Explore More</button>
+    </div>
+    <div id="product-1" class="product1">
+        <h2>New Arrivals</h2>
+        <p>Summer Collection New MOrder Desing</p>
+        <div class="pro-con">
+            <div class="pro">
+                <img src="images/products/n1.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartooon Astronaut T-Shirts</h5>
+                    <div class="start">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping" id="cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/products/n2.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartooon Astronaut T-Shirts</h5>
+                    <div class="start">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping" id="cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/products/n3.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartooon Astronaut T-Shirts</h5>
+                    <div class="start">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping" id="cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/products/n4.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartooon Astronaut T-Shirts</h5>
+                    <div class="start">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping" id="cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/products/n5.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartooon Astronaut T-Shirts</h5>
+                    <div class="start">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping" id="cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/products/n6.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartooon Astronaut T-Shirts</h5>
+                    <div class="start">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping" id="cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/products/n7.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartooon Astronaut T-Shirts</h5>
+                    <div class="start">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping" id="cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/products/n8.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartooon Astronaut T-Shirts</h5>
+                    <div class="start">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping" id="cart"></i></a>
+            </div>
+        </div>
+    </div>
+    <div id="sm-banner" class="sm-banner0">
+        <div class="bannner-box">
+            <h4>Crazy deals</h4>
+            <h2>buy 1 get 1 free</h2>
+            <span>The bast classic dress is ont the sale cara</span>
+            <button class="white">Learn More</button>
+        </div>
+        <!-- <div class="bannner-box bannner-box2">
+            <h4>spriing/summer</h4>
+            <h2>upcomming season</h2>
+            <span>The bast classic dress is ont the sale cara</span>
+            <button class="white">Learn More</button>
+        </div> -->
+    </div>
+    <div id="banner3">
+        <div class="bannner-box">
+            <h2>SEASONAL SALE</h2>
+            <h4>Winter Collection -50% OFF </h4>
+        </div>
+        <div class="bannner-box bannner-box2">
+            <h2>NEW FOOTWEAR COLLECTION</h2>
+            <h4>spring / Summer 2022</h4>
+        </div>
+        <div class="bannner-box bannner-box3">
+            <h2>T-SHIRTS</h2>
+            <h4>New Trendy Prints</h4>
+        </div>
+    </div>
+    <div id="newsletter">
+        <div class="newstext">
+            <h4>
+                Sing Up For Newsletters
+            </h4>
+            <p>Get E-mail Updates About our shop and <span>special offers.</span> </p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your E-mail Adderss">
+            <button>Sing Up</button>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="col">
+            <img class="logo" src="images/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address :</strong>F-122,Atlanta shopping mall,Althan</p>
+            <p><strong>Phone :</strong>+91 7777 95 68 77</p>
+            <p><strong>Houres :</strong>10:00 AM TO 18:00 PM, MON - SAT </p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook"></i> <i classs="fas fa-twittrer"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i> <i classs="fas fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sing In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store opr Google Play </p>
+            <div class="row">
+                <img src="images/pay/app.jpg" alt="">
+                <img src="images/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Pay Products</p>
+            <img src="images/pay/pay.png" alt="">
+        </div>
+        <div class="copyright">
+            <p>@ 2021, Tech2 etc - HTML CSS Ecommerce Template </p>
+        </div>
+    </footer>
 </body>
 
 </html>
