@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E3E6F3;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    top: 0px;
+    position: fixed;
+    z-index: 1;
+    background-color: #E3E6F3;
+
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+    box-shadow: 0 10px 20px rgb(0, 0, 0, 0.06);
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+
+}
+
+nav ul li {
+    list-style: none;
+    position: relative;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #088178;
+    font-size: 22px;
+    font-weight: 800;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #893f45;
+}
+
+nav ul li a:hover::after {
+    content: "";
+    width: 90%;
+    height: 2px;
+    background: #088178;
+    position: absolute;
+    bottom: -4px;
+    left: 2px;
+}
+
+.part1 {
+    background-image: url("images/backgroundimage/solid-color-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+}
+
+.part2 {
+    display: flex;
+    padding-top: 300px;
+    padding-left: 100px;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.part2 h4 {
+    font-size: 30px;
+}
+
+.part2 h2 {
+    font-size: 50px;
+}
+
+.part2 h1 {
+    font-size: 55px;
+}
+
+.part2 p {
+    font-size: 25px;
+}
+
+.part2 button {
+    width: 150px;
+    height: 60px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 20px;
+    border: 2px solid #E3E6F3;
+    background-color: #893f45;
+}
+
+.feature {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px;
+    flex-wrap: wrap;
+
+}
+
+.feature .fe-box {
+    width: 200px;
+    background-color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 0.5px solid #c7bfbf;
+}
+
+.feature .fe-box:hover {
+    box-shadow: 5px 5px 30px #d4d5bc;
+}
+
+.feature .fe-box img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.feature .fe-box h6 {
+    display: inline-block;
+    padding: 7px;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+
+.feature .fe-box:nth-child(2) h6 {
+    background-color: blanchedalmond;
+
+}
+
+.products {
+    padding: 40px 80px;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 80px;
+}
+
+.products p {
+    font-size: 30px;
+}
+
+.products .pro-con {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.pro-con .product {
+    width: 23%;
+    min-width: 250px;
+    border: 2px solid #c7bfbf;
+    border-radius: 25px;
+    margin: 15px 0;
+    position: relative;
+}
+
+.pro-con .product:hover {
+    box-shadow: 5px 5px 30px rgb(173, 164, 164);
+
+}
+
+.pro-con .product img {
+    width: 100%;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+
+.pro-con .product .des {
+    text-align: start;
+    padding: 10px;
+
+}
+
+.pro-con .product span {
+    color: #6f6969;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.pro-con .product h5 {
+    font-size: 15px;
+}
+
+.pro-con .product .star i {
+    color: rgb(229, 229, 41);
+
+}
+
+.pro-con .product .des h4 {
+    font-size: 18px;
+    color: #11731f;
+}
+
+#cart {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    /* color: #893f45; */
+    background-color: #a2d6aa;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+}
+
+#banner {
+    width: 100%;
+    height: 30vh;
+    margin: 20px 0;
+    padding: 40px 80px;
+    background-image: url("images/banner/b2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+#banner h2 {
+    font-size: 30px;
+}
+
+#banner h1 {
+    font-size: 70px;
+}
+
+#banner span {
+    color: red;
+}
+
+#banner button {
+    width: 200px;
+    height: 50px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+#banner button:hover {
+    color: #fff;
+    background-color: #088178;
+}
+
+.sm-banner {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px;
+}
+
+.sm-banner .banner-box {
+    width: 650px;
+    height: 50vh;
+    display: flex;
+    align-items: flex-start;
+    background-image: url('images/banner/b17.jpg');
+}
+
+#sm-banner .bannner-box2 {
+
+    background-image: url(images/banner/b10.jpg);
+}

@@ -1,0 +1,230 @@
+    <script src="https://kit.fontawesome.com/265e283e46.js" crossorigin="anonymous"></script>
+
+background color of body: #E3E6F3
+/* padding: 40px 80px; */
+
+    color: #893f45;
+    background: #088178;
+
+*************************
+/*navbar start*/
+*************************
+nav
+	web logo
+	div	
+		ul  class="navbar"
+			li 	a 	i cart
+	div
+	div 
+/*navbar end*/ 
+
+*****************************************************************************
+/*part-2 start*/
+div	id=part1
+	div part-2
+	 <h4>Trade-in-offer</h4>
+	 <h2>Super value beals</h2>
+     <h1>On all products </h1>
+     <p>Save more with coupons & up 70% off!</p>
+	 button  =>  Shop Now
+/*part-2 end*/
+/*feature start*/
+div 
+	div =fe-box
+		image 	=> 	img folder => features folder => f1  to  f6
+		image name 
+		f1 ==>             <h6>Free Shipping</h6>
+		f2 ==> 			   <h6>Online Order</h6>
+		f3 ==>             <h6>Save Money</h6>
+		f4 ==>             <h6>Promotions</h6>
+		f5 ==>             <h6>Happy Sell</h6
+		f6 ==>             <h6>Support</h6>
+/*feature end*/
+*****************************************************************************
+/*products start*/
+div 
+		 <h2>Featured Products</h2>
+		 <p>Summer Collection New MOrder Desing</p>
+	 div  ==> product conitner
+		div ==> product
+			image 	=> 	img folder => products fold	er => f1  to  f8
+				div ==> description  /// start
+						<span>adidas</span>
+						<h5>Cartooon Astronaut T-Shirts</h5>
+						<div class="start">
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+						</div>	
+						<h4>$78</h4>
+				div ==> description  /// colse
+				cart icon in <a>  // icon  out of description div
+				f1 ==>   <h5>Cartooon Astronaut T-Shirts</h5>
+				f2 ==> 			  ''
+				f3 ==>            ''
+				f4 ==>            ''
+				f5 ==>            ''
+				f6 ==>   		  ''
+				f7 ==>   		  ''
+				f8 ==>   		  ''
+/*products end*/
+*****************************************************************************
+/*banner start*/
+
+/*this div backgroud image ==>	image => banner =>  	
+ <div id="banner" class="banner-d">
+        <h2>Repair Services</h2>
+        <h1>Up to <span>70% Off </span>- All t-shirts & Accessories</h1>
+        <button>Explore More</button>
+    </div>
+/*banner end*/
+*****************************************************************************
+
+copy first products div
+
+/* products start*/
+div 
+	 <h2>Featured Products</h2>
+     <p>Summer Collection New MOrder Desing</p>
+	 div  ==> product conitner
+		div ==> product
+			image 	=> 	img folder => products folder => n1  to  n8
+				div ==> description  /// start
+						<span>adidas</span>
+						<h5>Cartooon Astronaut T-Shirts</h5>
+						<div class="start">
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+						</div>	
+						<h4>$78</h4>
+				div ==> description  /// colse
+				cart icon in <a>  // icon  out of description div
+				n1 ==>   <h5>Cartooon Astronaut T-Shirts</h5>
+				n2 ==> 			  ''
+				n3 ==>            ''
+				n4 ==>            ''
+				n5 ==>            ''
+				n6 ==>   		  ''
+				n7 ==>   		  ''
+				n8 ==>   		  ''
+				
+/*products end*/
+*****************************************************************************
+/* sm-banner start*/
+<div id="sm-banner" class="sm-banner0">
+
+	/*this div backgroud image ==>	image => banner => b17
+        <div class="bannner-box">
+            <h4>Crazy deals</h4>
+            <h2>buy 1 get 1 free</h2>
+            <span>The bast classic dress is ont the sale cara</span>
+            <button class="white">Learn More</button>
+        </div>
+	
+	/*this div backgroud image ==>	image => banner => b10
+        <div class="bannner-box bannner-box2">
+            <h4>spriing/summer</h4>
+            <h2>upcomming season</h2>
+            <span>The bast classic dress is ont the sale cara</span>
+            <button class="white">Learn More</button>
+        </div>
+    </div>
+/* sm-banner end*/
+*****************************************************************************
+/* banner- start*/
+	<div id="banner3">
+		/*this div backgroud image ==>	image => banner => b7
+        <div class="bannner-box">
+            <h2>SEASONAL SALE</h2>
+            <h4>Winter Collection -50% OFF </h4>
+        </div>
+		/*this div backgroud image ==>	image => banner => b4
+        <div class="bannner-box bannner-box2">
+            <h2>NEW FOOTWEAR COLLECTION</h2>
+            <h4>spring / Summer 2022</h4>
+        </div>
+		/*this div backgroud image ==>	image => banner => b18
+        <div class="bannner-box bannner-box3">
+            <h2>T-SHIRTS</h2>
+            <h4>New Trendy Prints</h4>
+        </div>
+    </div>	
+/* banner-3 end*/
+*****************************************************************************
+/*newbanner with singup start*/
+/*this div backgroud image ==>	image => banner => b14
+ div id  =>  newsletter
+        div class  =>  newstext
+            h4 => Sing Up For Newsletters
+            <p>Get E-mail Updates About our shop and <span>special offers.</span> </p>
+      
+        div class => form
+            input placeholder  =>  Your E-mail Adderss
+            button ==> Sing Up 
+        </div>
+    </div>
+/*newbanner with singup end*/
+*****************************************************************************
+/*footer start*/
+footer #footer
+	div column 1 start 
+		img => logo
+		<h4>Contact</h4>
+		<p><strong>Address :</strong>F-122,Atlanta shopping mall,Althan</p>
+		<p><strong>Phone :</strong>+91 7777 95 68 77</p>
+		<p><strong>Houres :</strong>10:00 AM TO 18:00 PM, MON - SAT </p>
+		<div class="follow">
+			<h4>Follow us</h4>
+			
+			/*div icon start*/
+				<i class="fa-brands fa-facebook"></i> <i classs="fas fa-twittrer"></i>
+				<i class="fa-brands fa-twitter"></i>
+				<i class="fa-brands fa-instagram"></i>
+				<i class="fa-brands fa-youtube"></i> <i classs="fas fa-youtube"></i>
+			/*div icon end*/
+	div column 1 end
+	==================
+	div column 2 start
+		
+			<h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+
+	div column 2 end
+	================
+	div column 3 start
+	
+			<h4>My Account</h4>
+            <a href="#">Sing In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+
+	div column 3 end
+	=================
+	div column 4 start for install start
+
+		  <h4>Install App</h4>
+          <p>From App Store opr Google Play </p>
+		  div row start
+		  image google play and play store
+			images => pay ==> app 
+			images => pay ==> play
+		  div row end
+		  <p>Secured Pay Products</p>
+		  images => pay ==> pay
+
+	div column 4 start for install end
+	===================================
+	div copyright start
+	
+	            <p>@ 2021, Tech2 etc - HTML CSS Ecommerce Template </p>
+
+	div copyright end
