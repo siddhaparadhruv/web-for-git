@@ -1,0 +1,24 @@
+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
+
+
+$email = new \SendGrid\Mail\Mail(); 
+    $email->setFrom("harshrana47fd@gmail.com", "Hotel Holidays");
+    $email->setSubject("Account Verification Link");
+    $email->addTo($uemail,$name);
+   
+    $email->addContent(
+        "text/html", 
+        "Click the link to confirm you email: <br>
+        <a href='".SITE_URL."email_confirm.php?email=$uemail&token=$token"."'>
+        CLICK ME
+        </a>
+        "
+    );
+    $sendgrid = new \SendGrid(SENDGRID_API_KEY);
+    try{
+        $sendgrid->send($email);
+        return 1;
+    }
+    catch (Exception $e){
+        return 0;
+    }
